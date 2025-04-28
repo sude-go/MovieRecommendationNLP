@@ -54,6 +54,7 @@ To run this project locally, follow the steps below:
 5. Run the app:
 
     ```bash
+    python preprocess.py
     streamlit run app.py
     ```
 
