@@ -1,5 +1,7 @@
 # Movie Recommender App 🎬
 
+<img src="movie_recommendation.jpg" alt="">
+
 ## Description
 The **Movie Recommender App** uses <b>content-based filtering<b> to recommend movies to users. By analyzing a selected movie's title, the app finds similar movies based on plot descriptions and other related features. The app uses the OMDB API to fetch detailed information about each movie, including its plot, poster, and genres.
 
@@ -51,10 +53,16 @@ To run this project locally, follow the steps below:
     }
     ```
 
-5. Run the app:
+5. Run the preprocess and recommendation:
 
     ```bash
-    streamlit run app.py
+      python preprocess.py
+      python recommendation.py
+    ```
+   
+6. Run the App:
+    ```bash
+      streamlit run main.py
     ```
 
 Your browser should open with the app running. You can now start selecting movies and receiving recommendations.
