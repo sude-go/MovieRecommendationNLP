@@ -53,16 +53,10 @@ To run this project locally, follow the steps below:
     }
     ```
 
-5. Run the preprocess and recommendation:
+5. Run the app:
 
     ```bash
-      python preprocess.py
-      python recommendation.py
-    ```
-   
-6. Run the App:
-    ```bash
-      streamlit run main.py
+    streamlit run app.py
     ```
 
 Your browser should open with the app running. You can now start selecting movies and receiving recommendations.
